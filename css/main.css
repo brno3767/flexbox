@@ -1,0 +1,69 @@
+
+
+body {
+	background:black;
+}
+
+main {
+	display:flex;
+	justify-content:space-around;
+
+}
+
+h1 {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Calibri', light;
+	/*background-color:rgba(225,110,0,0.8);*/
+	border:solid 1px green;
+	/*box-shadow: 10px 10px 5px #4b4b4b;*/
+	width:40%;
+	color:white;
+}
+
+h3{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Calibri', light;
+	color:white;
+}
+
+ section h2 {
+	text-align:center;
+	color:white;
+}
+
+section p {
+	text-align:center;
+	padding:10px;
+	color:white;
+}
+
+main section {
+	width:28%;
+	/*background-color:rgba(225,110,0,0.8);*/
+	border:solid 1px green;
+	/*box-shadow: 10px 10px 5px #4b4b4b;*/
+	font-family: 'Calibri', light;
+}
+
+section img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media only screen and (max-width:550px){
+
+	main {
+		flex-flow:column;
+	}
+
+	main section {
+	width:80%;
+}
+
+}/*end media block
+
